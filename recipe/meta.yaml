@@ -1,5 +1,5 @@
 {% set name = "napari-image-stacker" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-image-stacker-{{ version }}.tar.gz
-  sha256: 658d9d176d44701c66a8a04b22f4f1759d98ffc8c7bbbabc63d442f8e3c6e14c
+  sha256: 7d1845269ee1b2b443d42bd3666aae911d7c9d090e9baa300fe949e32e9c4bdc
 
 build:
   noarch: python
